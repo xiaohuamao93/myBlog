@@ -1,8 +1,8 @@
 module.exports = [
     { text: '首页', link: '/' },
     { text: '笔记',  items: [
-            { text: 'day', link: '/guide/day/' },
-            { text: 'audition', link: '/guide/audition/' },
+            { text: '日常记录', link: '/guide/day/' },
+            { text: '面试题', link: '/guide/audition/' },
         ]
     },
     {
