@@ -7,6 +7,7 @@ module.exports = {
     description: 'Just playing around',
     head: head,
     plugins: plugins,
+    base: '/myBlog/',
     themeConfig: { //主题配置
         repo: 'xiaohuamao93/myBlog',
         docsDir: 'docs',
