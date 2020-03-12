@@ -1,6 +1,10 @@
 module.exports = [
     { text: '首页', link: '/' },
-    { text: '笔记', link: '/guide/' },
+    { text: '笔记',  items: [
+            { text: 'day', link: '/guide/day/' },
+            { text: 'audition', link: '/guide/audition/' },
+        ]
+    },
     {
         text: '前端', items: [
             { text: 'Vue', link: '/front/vue/' },
@@ -10,20 +14,11 @@ module.exports = [
         ]
     },
     {
-        text: 'node相关', items: [
-            { text: 'Java', link: '/backend/java/' },
-        ]
-    },
+        text: 'node', link: '/node/'},
     {
-        text: '服务器部署', items: [
-            { text: 'MySQL', link: '/database/mysql/'},
-        ]
-    },
+        text: '服务器部署', link: '/server/'},
     {
-        text: 'git', items: [
-            { text: 'Git', link: '/tools/git/' },
-        ]
-    },
+        text: 'git', link: '/git/'},
     {
         text: '其它', items: [
             { text: 'CICD', link: '/others/cicd/'},
