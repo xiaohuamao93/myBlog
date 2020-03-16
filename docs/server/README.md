@@ -1,6 +1,4 @@
 # docker
-# test2
-# 3test
 ## docker的安装
 参考docker的安装教程[链接地址](https://docs.docker.com/install/linux/docker-ce/centos/)
 ### 1.安装所需的依赖包
