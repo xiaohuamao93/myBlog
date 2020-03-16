@@ -3,7 +3,7 @@ const plugins = require('../../config/pluginconfig.js')
 const nav = require('../../config/navconfig.js')
 
 module.exports = {
-    title: '个人笔记',
+    title: 'xiaohuamao',
     description: 'Just playing around',
     head: head,
     plugins: plugins,
