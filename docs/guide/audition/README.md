@@ -68,3 +68,31 @@ const capitalizeEveryWord = str => str.replace(/\b[a-z]/g, char => char.toUpperC
 ```js
 Object.assign(this.$data, this.$options.data())
 ```
+##  数组降维
+```js
+var arr = [3, [5, 6], [7, 5, [3, 5]]];
+var newArr = [].concat.apply([], arr);
+```
+## 面试题8
+```js
+var bool = true;
+
+function a () {
+    console.log('--aa');
+}
+function b () {
+    console.log('--bb');
+}
+
+bool && a() || b()
+```
+## 面试题9
+```js
+let i;
+for (i = 0; i < 3; i++) {
+  const log = () => {
+    console.log(i);  }
+  setTimeout(log, 100);
+}
+
+```
