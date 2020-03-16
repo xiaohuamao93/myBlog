@@ -13,6 +13,7 @@ module.exports = {
         docsDir: 'docs',
         editLinks: true,
         sidebar: 'auto',
+        sidebarDepth: 2,
         // editLinkText: '编辑！',
         lastUpdated: '上次更新', // string | boolean
         nav: nav
