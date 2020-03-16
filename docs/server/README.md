@@ -297,6 +297,55 @@ COPY --from=builder code/public/static /usr/share/nginx/html/static
 ```
 - 以上参考链接：[https://shanyue.tech/op/deploy-fe-with-docker.html#%E5%85%88%E8%AE%A9%E5%AE%83%E8%B7%91%E8%B5%B7%E6%9D%A5](https://shanyue.tech/op/deploy-fe-with-docker.html#%E5%85%88%E8%AE%A9%E5%AE%83%E8%B7%91%E8%B5%B7%E6%9D%A5)
 # nginx
+## nginx的一些常用命令
+1.查看进程
+```
+ps aux|grep nginx
+```
+2.修改nginx配置文件
+```
+vim /usr/local/nginx/conf/nginx.conf
+```
+3.启动
+```
+/usr/local/nginx/sbin/nginx -s reload
+```
+4.停止
+```
+/usr/local/nginx/sbin/nginx -s stop
+```
+- 解决` nginx: [error] open() "/usr/local/nginx/logs/nginx.pid" failed (2: No such file or directory)`
+```
+/usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf
+```
+# vim
+1. 先进入命令模式，按 i可以进入编辑模式
+2.再按esc退出编辑模式
+3.退出命令
+```
+:w       //保存文件
+:q          //退出编辑器，如果文件已修改请使用下面的命令
+:q!        //退出编辑器，且不保存
+:wq         //退出编辑器，且保存文件
+```
 # jenkins
+# tomcat
+tomcat功能类似nginx,目前用来存储图片，120服务器上的图片都存储在tomcat
+### 常用命令
+1.修改配置信息
+```vim conf/server.html```
+2. 进入到bin目录下面进行关闭和启动命令
+3. 关闭
+```
+./shutdown.sh
+```
+4.启动
+```
+./startup.sh
+```
+5.查看是否关闭
+```
+ps -ef|grep java
+```
 
 
