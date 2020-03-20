@@ -12,7 +12,22 @@ module.exports = {
         repo: 'xiaohuamao93/myBlog',
         docsDir: 'docs',
         editLinks: true,
-        sidebar: 'auto',
+        sidebar: {
+            '/guide/day/': [
+                '',
+            ],
+            '/guide/audition/': [
+                '',
+                'xiaoying',
+                'nodejs'
+            ],
+            '/server/': [
+                '',
+            ],
+            '/git/': [
+                ''
+            ]
+        },
         // editLinkText: '编辑！',
         lastUpdated: '上次更新', // string | boolean
         nav: nav

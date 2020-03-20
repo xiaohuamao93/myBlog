@@ -1,4 +1,5 @@
-### 微队列/宏队列
+# 日常习题
+## 微队列/宏队列
 ```js
 setTimeout(function() {
   console.log(1)
@@ -15,7 +16,7 @@ new Promise(function executor(resolve) {
 });
 console.log(5);
 ```
-# link和import的区别
+## link和import的区别
 1. link是XHTML标签,而import完全是css提供的一种方式
 2. 加载顺序的区别,link同步加载,而import是需要等页面加载完成后再加载
 3. 兼容性的差别,

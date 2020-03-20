@@ -1,4 +1,6 @@
-# 日常笔记
+---
+title: 日常笔记
+---
 ## vertical-align: middle
 vertical-align属性起作用的前提必须是作用在内联元素上。 
 所以如果元素设置了float: left或者position: absolute，则其vertical-align属性不能生效,
