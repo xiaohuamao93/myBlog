@@ -23,6 +23,10 @@ module.exports = {
             ],
             '/server/': [
                 '',
+                'nginx',
+                'jenkins',
+                'tomcat',
+                'vim'
             ],
             '/git/': [
                 ''
