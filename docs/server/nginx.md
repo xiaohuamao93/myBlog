@@ -24,7 +24,6 @@ vim /usr/local/nginx/conf/nginx.conf
 `登录您的Nginx服务器，在Nginx安装目录（默认Nginx安装目录为/usr/local/nginx/conf）下创建cert目录，并将下载的证书文件和密钥文件拷贝到cert目录中`
 参考链接 [阿里云ssl](https://help.aliyun.com/document_detail/98728.html?spm=5176.2020520163.0.0.7b1c63fd63fdFS)
 ```
-
 # 以下属性中以ssl开头的属性代表与证书配置有关，其他属性请根据自己的需要进行配置。
 server {
     listen 443 ssl;   #SSL协议访问端口号为443。此处如未添加ssl，可能会造成Nginx无法启动。

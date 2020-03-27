@@ -97,3 +97,75 @@ for (i = 0; i < 3; i++) {
 }
 
 ```
+## 实现继承的几种方式
+1.原型链继承
+```js
+function Super() {
+  this.name = 'tom';
+}
+Super.prototype.setName = function(name) {
+  this.name = name;
+}
+
+function Sub() {
+  this.age = '18';
+}
+Sub.prototype = new Super();
+
+let sub = new Sub();
+sub.setName('tom2');
+```
+2.构造函数继承
+```js
+function Super() {
+  this.name = 'tom';
+}
+function Sub() {
+    this.age = '18';
+  Super.call(this);
+}
+let sub = new Sub();
+console.log('---sub.name', sub.name);
+```
+3. 组合继承，原型链和构造函数相结合
+4. class继承
+```js
+class Super {
+  constructor(){
+      this.name = 'tom';
+  }
+  setName(name){
+      this.name = name;
+  }
+}
+class Sub extends Super {
+  constructor(){
+      super();
+      this.age = '18';
+  }
+  setName2(name){
+     super.setName(name);
+  }
+}
+let sub = new Sub();
+sub.setName2('tom2');
+console.log('-----sub.name', sub.name);
+```
+## 实现call
+```js
+// foo.call(bar, arg1, arg2);
+Function.prototype.call = function (context) {
+    context.fn = this;
+    let args = [];
+    for (let i = 1;  i < arguments.length; i++) {
+        args.push(arguments[i]);
+    } 
+    const result = context.fn(...args);
+    delete context.fn;
+    return result;
+}
+```
+## 实现apply
+```js
+// 与call方法类似
+```
