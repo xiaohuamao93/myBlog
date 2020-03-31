@@ -76,6 +76,7 @@ Git 与常用的版本控制工具 CVS, Subversion 等不同，它采用了分�
 - 本地创建并关联远程分支： `git checkout -b dev origin/dev`
 - 推送到远程分支,远程没有的话会创建dev  `git push origin dev:dev`
 - 删除本地分支  `git branch -d dev`
+- 删除远程分支  `git push origin --delete dev`
 - 合并分支
     `git  merge dev`
 
