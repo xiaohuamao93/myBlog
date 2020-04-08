@@ -27,7 +27,8 @@ module.exports = {
                 'jenkins',
                 'tomcat',
                 'vim',
-                'pm2'
+                'pm2',
+                'ip'
             ],
             '/git/': [
                 ''
