@@ -21,6 +21,43 @@ sudo yum install docker-ce docker-ce-cli containerd.io
 docker --version
 ```
 ### 5.docker一些常用命令
+1. 构建一个vuenginxcontainer的镜像
+```dockerfile
+docker  build  -t  vuenginxcontainer .
+```
+2.以镜像(vuenginxcontainer)启动一个容器(vueApp),容器端口为80,外网访问地址8081
+```dockerfile
+docker run -d --name vueApp -p 8081:80 vuenginxcontainer
+```
+3.停止容器
+```dockerfile
+docker stop vueApp
+```
+4.重启容器
+```dockerfile
+docker restart vueApp
+```
+5. 查看运行中的容器
+```dockerfile
+docker ps
+```
+6.查看所有的容器
+```
+docker ps -a
+```
+7.删除容器
+```
+docker rm 容器名称/id
+```
+8.删除镜像
+```
+docker rmi 镜像id
+```
+9.查看vueApp容器的日志
+```
+docker logs vueApp
+```
+
 ```
 # 加入拉取一个 node:alpine 的镜像
 docker pull node:alpine
