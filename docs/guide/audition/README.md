@@ -163,9 +163,19 @@ Function.prototype.call = function (context) {
     const result = context.fn(...args);
     delete context.fn;
     return result;
-}
+}****
 ```
 ## 实现apply
 ```js
 // 与call方法类似
 ```
+## 获取style
+```
+function getStyle(dom, style) {
+	return window.getComputedStyle && window.getComputedStyle(dom, null)[style] ||dom.currentStyle[style]
+}
+```
+## 笔试题-1
+<a data-fancybox title="solar" href="../../images/1.png">![solar](../../images/1.png)</a>
+## 笔试题-2
+<a data-fancybox title="solar" href="../../images/2.png">![solar](../../images/2.png)</a>

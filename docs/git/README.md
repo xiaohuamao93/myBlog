@@ -3,6 +3,7 @@
 Git 是一个开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。
 Git 是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。
 Git 与常用的版本控制工具 CVS, Subversion 等不同，它采用了分布式版本库的方式，不必服务器端软件支持。
+<a data-fancybox title="solar" href="http://120.79.133.68:8080/pictures/1588056005466.png">![git图片](http://120.79.133.68:8080/pictures/1588056005466.png)</a>
 ## 常用命令
 - git init : 本地项目初始化
 - git add : 编辑区添加到暂存区
