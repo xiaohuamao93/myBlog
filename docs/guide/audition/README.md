@@ -176,6 +176,6 @@ function getStyle(dom, style) {
 }
 ```
 ## 笔试题-1
-<a data-fancybox title="solar" href="../../images/1.png">![solar](../../images/1.png)</a>
+![solar](../../images/1.png)
 ## 笔试题-2
-<a data-fancybox title="solar" href="../../images/2.png">![solar](../../images/2.png)</a>
+![solar](../../images/2.png)

@@ -9,7 +9,7 @@ module.exports = {
      },
   '@vuepress/back-to-top': true,//回到顶部插件
   '@vuepress/google-analytics': {//谷歌流量访问分析插件
-    'ga': 'UA-159565514-1' 
+    'ga': 'UA-159565514-1'
   },
   'vuepress-plugin-auto-sidebar': {//自动生成侧边栏
     titleMode: "uppercase"
@@ -21,9 +21,8 @@ module.exports = {
     }
   },
   '@vuepress/medium-zoom': {
-    selector: '.content__default img',
     options: {
-      margin: 16
+      background: '#999'
     }
   }
 
