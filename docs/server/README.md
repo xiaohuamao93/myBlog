@@ -1,5 +1,16 @@
 # docker
-## docker的安装
+## docker一些常用命令
+- 查看镜像列表  docker images, docker images -a
+- 查看运行中的容器列表 docker ps
+- 查看所有的容器列表  docker ps -a
+- 删除镜像列表 docker rmi xxxx
+- 删除容器列表 docker rm xxxx
+- 停止容器  docker stop xxxx
+- 启动容器 docker start xxxx
+- 创建镜像 docker build -t vuenginxcontainer .
+- 创建容器 docker run -d --name vueApp -p 9000:80 vuenginxcontainer
+
+# docker的安装
 参考docker的安装教程[链接地址](https://docs.docker.com/install/linux/docker-ce/centos/)
 ### 1.安装所需的依赖包
 ```
