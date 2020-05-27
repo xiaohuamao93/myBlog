@@ -10,7 +10,7 @@
 - 创建镜像 docker build -t vuenginxcontainer .
 - 创建容器 docker run -d --name vueApp -p 9000:80 vuenginxcontainer
 
-# docker的安装
+# docker的安装.
 参考docker的安装教程[链接地址](https://docs.docker.com/install/linux/docker-ce/centos/)
 ### 1.安装所需的依赖包
 ```
