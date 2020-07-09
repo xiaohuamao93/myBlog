@@ -8,3 +8,11 @@
 :q!        //退出编辑器，且不保存
 :wq         //退出编辑器，且保存文件
 ```
+
+# iptables命令
+```
+vi /etc/sysconfig/iptables  编辑配置
+
+service iptables restart   重启
+```
+
