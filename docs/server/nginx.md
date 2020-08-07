@@ -1,5 +1,10 @@
 # nginx
 ## nginx的一些常用命令
+查看端口是否开放
+```
+netstat -na|grep 8080
+```
+
 1.查看进程
 ```
 ps aux|grep nginx

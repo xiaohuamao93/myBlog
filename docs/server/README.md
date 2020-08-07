@@ -1,5 +1,6 @@
 # docker
 ## docker一些常用命令
+- 启动docker   service docker start
 - 查看镜像列表  docker images, docker images -a
 - 查看运行中的容器列表 docker ps
 - 查看所有的容器列表  docker ps -a
