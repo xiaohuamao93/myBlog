@@ -80,5 +80,3 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
-
-docs/.vuepress/dist
