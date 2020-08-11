@@ -11,6 +11,14 @@
 - 创建镜像 docker build -t vuenginxcontainer .
 - 创建容器 docker run -d --name vueApp -p 9000:80 vuenginxcontainer
 
+## docker-compose一些常用命令
+- 部署一个应用 docker-compose up -d   (-d 表示后台运行)
+- 停止容器，但不会删除他们  docker-compose stop 
+- 删除已停止的容器 docker-compose rm
+- 重启已停止的容器 docker-compose restart
+- 查看容器 docker-compose ps
+- 停止并删除运行的容器 docker-compose down
+
 # docker的安装.
 参考docker的安装教程[链接地址](https://docs.docker.com/install/linux/docker-ce/centos/)
 ### 1.安装所需的依赖包
