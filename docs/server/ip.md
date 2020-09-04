@@ -5,4 +5,5 @@
 3. 9000/myBlog 博客地址 ---- [blog.maoxh.com/myBlog](https://blog.maoxh.com/myBlog)
 4. 8080 tomcat地址(部署文件/图片服务器) ----  [file.maoxh.com](https://file.maoxh.com)
 5. 9001 测试docker+nginx部署
+6. 9002 测试docker-compose+nginx部署
 

@@ -2,7 +2,7 @@
 tomcat功能类似nginx,目前用来存储图片，120服务器上的图片都存储在tomcat
 ### 安装路径
 ```
-/usr/local/tomcat9/lib
+/usr/local/tomcat9/bin
 ```
 ### 常用命令
 
