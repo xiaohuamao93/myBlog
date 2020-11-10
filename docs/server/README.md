@@ -11,6 +11,11 @@
 - 创建镜像 docker build -t vuenginxcontainer .
 - 创建容器 docker run -d --name vueApp -p 9000:80 vuenginxcontainer
 
+## Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
+```
+    service docker start
+```
+
 ## docker-compose一些常用命令
 - 部署一个应用 docker-compose up -d   (-d 表示后台运行)
 - 停止容器，但不会删除他们  docker-compose stop 

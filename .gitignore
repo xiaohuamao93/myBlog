@@ -2,6 +2,7 @@
 logs
 *.log
 .idea
+docs/
 node_modules/
 npm-debug.log*
 yarn-debug.log*
@@ -80,3 +81,5 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+docs/.vuepress/dist
