@@ -11,5 +11,7 @@ features:
   details: 笔记一定要精炼，抛去废话，排版整洁，便于二次查看。
 - title: 目的
   details: 让写博客和记笔记变成一种享受。
-footer: MIT Licensed | Copyright © 2020-present
+footer: 
+    MIT Licensed | Copyright © 2020-present
 ---
+[赣ICP备20005692号](https://beian.miit.gov.cn) 
