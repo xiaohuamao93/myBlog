@@ -28,7 +28,16 @@
 参考docker的安装教程[链接地址](https://docs.docker.com/install/linux/docker-ce/centos/)
 ### 1.安装所需的依赖包
 ```
-yum install -y yum-utils device-mapper-persistent-data lvm2
+sudo yum install -y yum-utils
+
+sudo yum-config-manager \
+    --add-repo \
+    https://download.docker.com/linux/centos/docker-ce.repo
+```
+* 如果安装报'Errors during downloading metadata for repository 'AppStream':'
+```
+sed -i 's/$releasever/8-stream/' CentOS*repo
+
 ```
 ### 2.使用以下命令来设置稳定的存储库。
 ```
