@@ -6,7 +6,7 @@
     "docs:build": "vuepress build docs"
   },
   "dependencies": {
-    "moment": "^2.29.2"
+    "moment": "^2.29.4"
   },
   "devDependencies": {
     "@vuepress/plugin-medium-zoom": "^1.9.7",
