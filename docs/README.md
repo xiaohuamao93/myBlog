@@ -14,7 +14,7 @@ features:
 ---
 
 <div align=center style='margin-top:300px'>
-<a href=https://beian.miit.gov.cn>赣ICP备20005692号</a>
+<a href=https://beian.miit.gov.cn>赣ICP备2023000887号</a>
 </div>
 
 
