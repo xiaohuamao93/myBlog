@@ -2,7 +2,7 @@
 logs
 *.log
 .idea
-docs/
+# docs/
 node_modules/
 npm-debug.log*
 yarn-debug.log*
@@ -71,7 +71,7 @@ typings/
 .nuxt
 
 # vuepress build output
-.vuepress/dist
+# .vuepress/dist
 
 # Serverless directories
 .serverless/
@@ -82,4 +82,4 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
-docs/.vuepress/dist
+# docs/.vuepress/dist
