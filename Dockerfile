@@ -10,11 +10,11 @@ WORKDIR /code
 
 ADD package.json /code
 
-RUN npm install
+# RUN npm install
 
 ADD . /code
 
-RUN npm run docs:build
+# RUN npm run docs:build
 
 FROM nginx:latest
 COPY --from=builder code/docs/.vuepress/dist /usr/share/nginx/html
